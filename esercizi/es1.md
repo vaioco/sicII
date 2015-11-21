@@ -1,14 +1,3 @@
-
-# come scaricare il repository del corso
-
-```
-git clone https://github.com/vaioco/sicII.git
-```
-
-nella cartella "esercizi/stack" trovate gli esercizi relativi alla parte di stack overflow.
-
-usate il comando "make" per compilare gli esercizi.
-
 # primo esercizio
 
 provare a sfruttare lo stack overflow presente nei programmi stack{1,2,3,4,5}.c
