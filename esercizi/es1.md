@@ -16,6 +16,6 @@ il codice precedente mostra un esempio dell'output che indica la corretta soluzi
 
 nell'esempio viene utilizzata la redirezione dell'output sfruttando il comando pipe "|", il comando python serve, invece, per produrre l'input che verra' passato al programma che segue il comando di pipe "|" (nell'esempio: stack1)
 
-La soluzione da consegnare e' il comando che avete costruito per "exploitare" lo stack overflow degli esercizi.
+La soluzione da consegnare e' l'input con cui il programma produce in output 'you win!' .
 
 happy hacking!!
