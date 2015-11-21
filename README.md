@@ -43,6 +43,6 @@ echo 0 > /proc/sys/kernel/randomize_va_space
 [4]: http://www.cs.berkeley.edu/~mavam/teaching/cs161-sp11/gdb-refcard.pdf "GDB cheatsheet"
 [5]: http://www.thegeekstuff.com/2012/09/objdump-examples/ "objdump"
 [6]: http://insecure.org/stf/smashstack.html "smashing the stack"
-[7]: www.mgraziano.info/docs/stsi2010.pdf "smashing 2010"
+[7]: http://www.mgraziano.info/docs/stsi2010.pdf "smashing 2010"
 [8]: http://www.geeksforgeeks.org/memory-layout-of-c-program/ "memory layout"
 [9]: http://www.drpaulcarter.com/pcasm/ "x86 guide"
