@@ -1,4 +1,14 @@
-# sicII
+# Software (In)security - corso di sicurezza II
+
+per scaricare il repository del corso eseguite il comando:
+
+```
+git clone https://github.com/vaioco/sicII.git
+```
+
+nella cartella "esercizi/" trovate gli esercizi da completare durante il corso.
+
+usate il comando "make" per compilare gli esercizi.
 
 #dependencies
 
