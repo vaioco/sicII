@@ -17,7 +17,7 @@ int main(int argc, char** argv) {
 void myfunc(char* src)
 {
 	int cookie;
-	char buf[80];
+	char buf[60];
 	printf("buf: %08x cookie: %08x\n", &buf, &cookie);
 	strcpy(buf,src);
 	if (cookie == 0x000d0a00)
