@@ -12,6 +12,7 @@ git clone https://github.com/vaioco/sicII.git
 + apt-get install build-essentials git binutils ia32-libs
 + [checksec.sh][10]
 + hopperapp.com
++ [IDA][11]
 
 #come disabilitare ASLR
 echo 0 > /proc/sys/kernel/randomize_va_space
@@ -41,3 +42,4 @@ echo 0 > /proc/sys/kernel/randomize_va_space
 [8]: http://www.geeksforgeeks.org/memory-layout-of-c-program/ "memory layout"
 [9]: http://www.drpaulcarter.com/pcasm/ "x86 guide"
 [10]: http://www.trapkit.de/tools/checksec.html "checksec.sh"
+[11]: https://www.hex-rays.com/products/ida/support/download_demo.shtml [IDA]
