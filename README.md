@@ -9,14 +9,14 @@ git clone https://github.com/vaioco/sicII.git
 
 #dependencies
 
-+ apt-get install build-essentials git binutils
-+ checksec.sh
-+ hopperapp
++ apt-get install build-essentials git binutils ia32-libs
++ [checksec.sh][10]
++ hopperapp.com
 
 #come disabilitare ASLR
 echo 0 > /proc/sys/kernel/randomize_va_space
 
-#gcc flag 
+#gcc flags 
 -fno-stack-protector -z execstack -mpreferred-stack-boundary=2 -m32
 
 
@@ -40,3 +40,4 @@ echo 0 > /proc/sys/kernel/randomize_va_space
 [7]: http://www.mgraziano.info/docs/stsi2010.pdf "smashing 2010"
 [8]: http://www.geeksforgeeks.org/memory-layout-of-c-program/ "memory layout"
 [9]: http://www.drpaulcarter.com/pcasm/ "x86 guide"
+[10]: http://www.trapkit.de/tools/checksec.html "checksec.sh"
