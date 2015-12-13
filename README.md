@@ -6,7 +6,6 @@ per scaricare il repository del corso eseguite il comando:
 git clone https://github.com/vaioco/sicII.git
 ```
 
-nella cartella "esercizi/" trovate gli esercizi da completare durante il corso.
 
 #dependencies
 
@@ -14,10 +13,10 @@ nella cartella "esercizi/" trovate gli esercizi da completare durante il corso.
 + checksec.sh
 + hopperapp
 
-#disable ASLR
+#come disabilitare ASLR
 echo 0 > /proc/sys/kernel/randomize_va_space
 
-#compilation flags
+#gcc flag 
 -fno-stack-protector -z execstack -mpreferred-stack-boundary=2 -m32
 
 
