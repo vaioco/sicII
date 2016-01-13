@@ -1,6 +1,6 @@
 
 CC=gcc
-CFLAGS=-fno-stack-protector -z execstack -m32 -ggdb
+CFLAGS=-fno-stack-protector -z execstack -m32 -O0 -ggdb -mpreferred-stack-boundary=2
 SRCS = $(wildcard *.c)
 PROGS = $(patsubst %.c,%,$(SRCS))
 all: $(PROGS)

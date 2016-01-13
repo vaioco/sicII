@@ -6,18 +6,18 @@ per scaricare il repository del corso eseguite il comando:
 git clone https://github.com/vaioco/sicII.git
 ```
 
-nella cartella "esercizi/" trovate gli esercizi da completare durante il corso.
 
 #dependencies
 
-+ apt-get install build-essentials git binutils
-+ checksec.sh
-+ hopperapp
++ apt-get install build-essentials git binutils ia32-libs
++ [checksec.sh][10]
++ hopperapp.com
++ [IDA][11]
 
-#disable ASLR
+#come disabilitare ASLR
 echo 0 > /proc/sys/kernel/randomize_va_space
 
-#compilation flags
+#gcc flags 
 -fno-stack-protector -z execstack -mpreferred-stack-boundary=2 -m32
 
 
@@ -41,3 +41,5 @@ echo 0 > /proc/sys/kernel/randomize_va_space
 [7]: http://www.mgraziano.info/docs/stsi2010.pdf "smashing 2010"
 [8]: http://www.geeksforgeeks.org/memory-layout-of-c-program/ "memory layout"
 [9]: http://www.drpaulcarter.com/pcasm/ "x86 guide"
+[10]: http://www.trapkit.de/tools/checksec.html "checksec.sh"
+[11]: https://www.hex-rays.com/products/ida/support/download_demo.shtml "IDA"
